@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, sans-serif;
+    list-style: 1.6;
+    margin: 20px;
+    background-color: rgb(77, 60, 60);
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background: white;
+}
+
+h1{
+    margin: 0;
+}
+
+section{
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    color: coral;
+}
+
+.job, .education{
+    margin-bottom: 15px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    background-color: rgb(214, 192, 163);
+    width: 450px;
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width :1200px){
+    body{
+        background-color: grey;
+        font-size: large;
+    }
+
+    p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+h3 {
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+thead{
+    background-color: azure;
+    text-align: center;
+    text-decoration: underline;
+}
+
+tbody{
+    background-color: rgb(195, 206, 215);
+    text-align: center;
+}
+
+table{
+    border-color: #007bff;
+}
+
+.Mail, .Tel, .appre, .dev{
+    text-decoration: underline;
+}
+
+ol{
+    list-style: circle;
+}
